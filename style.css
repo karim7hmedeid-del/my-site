@@ -3,7 +3,20 @@ body {
   color: #fff;
   font-family: Arial;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
 }
 
 button {
@@ -13,4 +26,9 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+#msg {
+  margin-top: 15px;
+  color: yellow;
 }
